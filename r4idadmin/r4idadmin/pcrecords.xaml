@@ -5,9 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:r4idadmin"
              mc:Ignorable="d" Width="507.673" Height="60.07">
-    <Grid Name="pc_stat" Margin="2,2,1,1" RenderTransformOrigin="0.5,0.5" Background="White">
-        <Label x:Name="PCAddress" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="224" FontSize="21.333" Margin="10,10,0,0"/>
+    <Grid Name="pc_stat" Margin="2,2,1,1" RenderTransformOrigin="0.5,0.5" Background="#FF093145">
+        <Label x:Name="PCAddress" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="224" FontSize="21.333" Margin="10,10,0,0" Background="#FF107896" FontWeight="Bold"/>
         <Ellipse Name="led" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="37" Margin="431,10,0,0" Fill="#FFE8DDDD"/>
-        <Label x:Name="PCIp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="157" FontSize="21.333" Margin="250,10,0,0"/>
+        <Label x:Name="PCIp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="157" FontSize="21.333" Margin="250,10,0,0" Background="#FF107896" FontWeight="Bold"/>
     </Grid>
 </UserControl>

@@ -15,80 +15,107 @@
     </Window.Resources>
 
     <Grid>
-        <TabControl x:Name="dash_tabs" Margin="10,10,10,35.333" Grid.RowSpan="2" SelectionChanged="dash_tabs_SelectionChanged">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="688*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="dash_tabs" Margin="10,10,10,35" SelectionChanged="dash_tabs_SelectionChanged" Background="#FF093145" Grid.ColumnSpan="2">
             <TabItem  Header="Home" Margin="15,35,-31,-37" RenderTransformOrigin="0.253,-0.621">
-                <Grid Background="White" Margin="10,41,7,0">
-                    <Label x:Name="Cafe_Summary" Content="Cafe Details" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="240,10,221,0" Height="40" Width="174" FontSize="26.667"/>
-                    <Label x:Name="label" Content="Active users :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="87,62,0,0" Height="28" Width="85"/>
-                    <Label x:Name="label_Copy" Content="Active workstations :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,102,0,0" Height="28" Width="123"/>
-                    <Label x:Name="label_Copy1" Content="Idle workstation :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,142,0,0" Height="28" Width="104"/>
-                    <Label x:Name="label_Copy2" Content="Total Playing hours :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="319,62,0,0" Height="28" Width="120"/>
-                    <Label x:Name="label_Copy3" Content="Money Earned :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="343,102,0,0" Height="28" Width="96"/>
-                    <Label x:Name="label_Copy4" Content="Most played game of the day :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,273,0,0" Height="28" Width="174"/>
-                    <Label x:Name="label_Copy5" Content="Disconnected workstations :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,182,0,0" Height="28" Width="161"/>
-                    <TextBlock x:Name="firstname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="177,67,0,0" Height="23" Width="118"/>
-                    <TextBlock x:Name="lastname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="177,187,0,0" Height="23" Width="118"/>
-                    <TextBlock x:Name="email" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="460,107,0,0" Height="23" Width="118"/>
-                    <TextBlock x:Name="username" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="460,67,0,0" Height="23" Width="118"/>
-                    <TextBlock x:Name="password" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="177,107,0,0" Height="23" Width="118"/>
-                    <TextBlock x:Name="address" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="358,273,0,0" Height="28" Width="232"/>
-                    <TextBlock x:Name="mobile" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="177,147,0,0" Height="23" Width="118"/>
-                    <Label x:Name="Time" Content="Live timer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,10,0,0" Height="28" Width="85"/>
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF107896" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Margin="-26,17,43,24">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="22*"/>
+                        <ColumnDefinition Width="119*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="Cafe_Summary" Content="Cafe Details" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="164.5,10,256,0" Height="40" Width="174" FontSize="26.667" Foreground="#FF829356" FontWeight="Bold" Grid.Column="1"/>
+                    <Label x:Name="label" Content="Active users :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="87,62,0,0" Height="28" Width="113" Foreground="#FF829356" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy" Content="Active workstations :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,102,0,0" Height="28" Width="151" Foreground="#FF829356" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy1" Content="Idle workstation :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,142,0,0" Height="28" Width="132" Foreground="#FF829356" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy2" Content="Total Playing hours :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="287,62,0,0" Height="28" Width="152" Foreground="#FF829356" Grid.Column="1" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy3" Content="Money Earned :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="313,102,0,0" Height="28" Width="126" Foreground="#FF829356" Grid.Column="1" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy4" Content="Most played game of the day :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,273,0,0" Height="28" Width="208" Foreground="#FF829356" Grid.Column="1" FontWeight="Bold" FontSize="13.333"/>
+                    <Label x:Name="label_Copy5" Content="Disconnected workstations :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,182,0,0" Height="28" Width="190" Foreground="#FF829356" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="13.333"/>
+                    <TextBlock x:Name="firstname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="118,67,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="lastname" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="118,187,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="email" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="444,107,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="username" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="444,67,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="password" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="118,107,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="address" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="248.5,273,0,0" Height="28" Width="232" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <TextBlock x:Name="mobile" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="118,147,0,0" Height="23" Width="118" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                    <Label x:Name="Time" Content="Live timer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="477.5,10,0,0" Height="28" Width="85" Foreground="#FF829356" Grid.Column="1" FontWeight="Bold" FontSize="13.333"/>
                 </Grid>
             </TabItem>
 
             <TabItem Header="REGISTER USER" Margin="36,35,-36,-37" RenderTransformOrigin="0.253,-0.621">
-                <Grid Background="White" Margin="9,34,9,6">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF107896" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF093145" Margin="9,34,9,6">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="14*"/>
                         <ColumnDefinition Width="5*"/>
                         <ColumnDefinition Width="74*"/>
                         <ColumnDefinition Width="24*"/>
                         <ColumnDefinition Width="56*"/>
-                        <ColumnDefinition Width="530*"/>
+                        <ColumnDefinition Width="35*"/>
+                        <ColumnDefinition Width="495*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="uname_re1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,30,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <Label x:Name="label2_re1" Content="Username* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,29,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2"/>
+                    <TextBox x:Name="uname_re1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,30,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <Label x:Name="label2_re1" Content="Username* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,29,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
 
-                    <Button x:Name="button1_register" Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Margin="173,360,0,0" Click="Register_Click" Height="36" Grid.Column="5"/>
-                    <Label x:Name="label2_re1_Copy" Content="Password* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,59,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy1" Content="Name* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,88,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy2" Content="Email* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,118,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy3" Content="Mobile* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,148,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy4" Content="Address Line 1* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,178,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="1"/>
-                    <Label x:Name="label2_re1_Copy5" Content="City* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,239,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy6" Content="State* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,269,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy7" Content="Pincode* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,299,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Label x:Name="label2_re1_Copy8" Content="Country* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,299,0,0" Width="98" Grid.Column="5"/>
-                    <PasswordBox x:Name="Passwrd1" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="178" Margin="17,60,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Fname_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,90,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Email_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,120,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Mobile_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,150,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Add1_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,180,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Add2_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,210,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="City_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,240,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="State_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,270,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Pincode_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Margin="17,300,0,0" Grid.Column="4" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="Country_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Margin="170,300,0,0" Grid.Column="5"/>
-                    <TextBox x:Name="Lname_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="156,90,0,0" Grid.Column="5"/>
-                    <PasswordBox x:Name="Passwrd2" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="178" Margin="156,60,0,0" Grid.Column="5"/>
+                    <Button x:Name="button1_register" Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Margin="65,356,0,0" Click="Register_Click" Height="36" Grid.Column="6" Background="#FF107896" FontSize="16" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy" Content="Password* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,59,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy1" Content="Name* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,88,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy2" Content="Email* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,118,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy3" Content="Mobile* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,148,0,0" Width="84" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy4" Content="Address Line 1* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,178,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="1" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy5" Content="City* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,239,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy6" Content="State* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,269,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy7" Content="Pincode* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,299,0,0" Width="98" Grid.ColumnSpan="3" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold"/>
+                    <Label x:Name="label2_re1_Copy8" Content="Country* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="65,299,0,0" Width="98" Grid.Column="6" Foreground="#FF829356" FontWeight="Bold"/>
+                    <PasswordBox x:Name="Passwrd1" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="178" Margin="17,60,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Fname_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,90,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Email_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,120,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Mobile_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,150,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Add1_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,180,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Add2_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,210,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="City_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,240,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="State_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="17,270,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Pincode_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" Margin="17,300,0,0" Grid.Column="4" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="Country_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Margin="135,300,0,0" Grid.Column="6"/>
+                    <TextBox x:Name="Lname_txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" Margin="121,90,0,0" Grid.Column="6"/>
+                    <PasswordBox x:Name="Passwrd2" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="178" Margin="121,60,0,0" Grid.Column="6"/>
 
                 </Grid>
             </TabItem>
 
 
             <TabItem Header="MONITOR" Margin="124,35,-124,-37" RenderTransformOrigin="0.731,1.924" Loaded="Window_Loaded">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF107896" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
 
 
-                <Grid Background="#FFE5E5E5" Margin="9,38,0,12" RenderTransformOrigin="0.507,0.507" HorizontalAlignment="Left" Width="634">
+                <Grid Background="#FF093145" Margin="9,38,0,12" RenderTransformOrigin="0.507,0.507" HorizontalAlignment="Left" Width="634">
 
 
 
-                    <Label x:Name="lab_pccount" Content="Number of connected PC :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="16"/>
+                    <Label x:Name="lab_pccount" Content="Number of connected PC :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="16" Foreground="#FF829356" FontWeight="Bold"/>
                     <TextBlock x:Name="txtblock_pccount" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="227,0,0,316" Height="28" Width="62" RenderTransformOrigin="0.654,0.643" FontSize="18.667"/>
-                    <ListBox x:Name="list_pc" HorizontalAlignment="Left" Height="311" VerticalAlignment="Top" Width="634" Margin="-10,41,0,0" SelectionChanged="list_pc_SelectionChanged"/>
-                    <Button x:Name="but_getdata" Content="get Details" Margin="494,11,30,361" Click="getdata"/>
-                    <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" ColumnWidth="auto"  IsReadOnly="True" Margin="12,49,12,0" VerticalAlignment="Top" Height="200"  />
+                    <ListBox x:Name="list_pc" HorizontalAlignment="Left" Height="311" VerticalAlignment="Top" Width="634" Margin="-10,41,0,0" SelectionChanged="list_pc_SelectionChanged" Background="#FF093145"/>
+                    <Button x:Name="but_getdata" Content="Get Details" Margin="497,3,27,369" Click="getdata" Background="#FF107896" FontSize="16" FontWeight="Bold"/>
+                    <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" ColumnWidth="auto"  IsReadOnly="True" Margin="12,49,12,0" VerticalAlignment="Top" Height="200" Background="#FF107896"  />
                     <TextBox x:Name="textBox" TextWrapping="Wrap" Margin="211,11,303,371" TextChanged="textBox_TextChanged" Visibility="Hidden"/>
                 </Grid>
             </TabItem>
@@ -96,37 +123,48 @@
                 <TabItem.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF0F0F0" Offset="0"/>
-                        <GradientStop Color="#FF2E3C1A" Offset="1"/>
+                        <GradientStop Color="#FF107896" Offset="1"/>
                     </LinearGradientBrush>
                 </TabItem.Background>
-                <Grid Background="White" Margin="9,38,9,2">
+                <Grid Background="#FF093145" Margin="9,38,9,2">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="245*"/>
-                        <ColumnDefinition Width="458*"/>
+                        <ColumnDefinition Width="22*"/>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="205*"/>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="71*"/>
+                        <ColumnDefinition Width="361*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="ip" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="162,24,0,0" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="mac" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="162,66,0,0" Grid.ColumnSpan="2"/>
-                    <Label x:Name="label1" Content="PC  MAC ADDRESSS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,65,0,0" Width="165"/>
-                    <Label x:Name="label3" Content="IP ADDRESS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,21,0,0" Width="165"/>
-                    <Button x:Name="Get_Details" Content="Get" Margin="168,31,218,342" Click="Get_Click" Grid.Column="1"/>
+                    <TextBox x:Name="ip" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="122,24,0,0" Grid.ColumnSpan="5" Grid.Column="2"/>
+                    <TextBox x:Name="mac" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="122,66,0,0" Grid.ColumnSpan="5" Grid.Column="2"/>
+                    <Label x:Name="label1" Content="PC  MAC ADDRESSS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,65,0,0" Width="165" Foreground="#FF829356" FontWeight="Bold" FontSize="13.333" Grid.ColumnSpan="3"/>
+                    <Label x:Name="label3" Content="IP ADDRESS" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,21,0,0" Width="165" Foreground="#FF829356" FontWeight="Bold" FontSize="13.333" Grid.Column="2"/>
+                    <Button x:Name="Get_Details" Content="Get" Margin="72,31,218,342" Click="Get_Click" Grid.Column="6" Background="#FF107896" Foreground="Black" FontWeight="Bold" FontSize="16"/>
 
-                    <Button x:Name="button" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Margin="238,313,0,0" Click="Save_Click" Height="36" Grid.Column="1"/>
-                    <TextBox x:Name="Workstation_Name" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="162,152,0,0" Grid.ColumnSpan="2" MaxLength="15"/>
-                    <Label x:Name="label1_Copy" Content="PC NAME *" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,151,0,0" Width="165"/>
-                    <RichTextBox x:Name="info" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="2" Margin="162,182,0,0">
+                    <Button x:Name="button" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="72" Margin="72,178,0,0" Click="Save_Click" Height="36" Grid.Column="6" Background="#FF107896" Foreground="Black" FontWeight="Bold" FontSize="16"/>
+                    <TextBox x:Name="Workstation_Name" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="122,152,0,0" Grid.ColumnSpan="5" MaxLength="15" Grid.Column="2"/>
+                    <Label x:Name="label1_Copy" Content="PC NAME *" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="33,151,0,0" Width="165" Foreground="#FF829356" FontWeight="Bold" FontSize="13.333" Grid.Column="2"/>
+                    <RichTextBox x:Name="info" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="214" Grid.ColumnSpan="5" Margin="122,182,0,0" Grid.Column="2">
                         <FlowDocument>
                             <Paragraph>
                                 <Run Text=""/>
                             </Paragraph>
                         </FlowDocument>
                     </RichTextBox>
-                    <Label x:Name="Details" Content="PC INFO *" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="78,188,0,0" Width="165"/>
+                    <Label x:Name="Details" Content="PC INFO *" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,188,0,0" Width="165" Foreground="#FF829356" FontWeight="Bold" FontSize="13.333" Grid.Column="2"/>
 
                 </Grid>
             </TabItem>
 
             <TabItem Header="RECHARGE" Margin="-91,34,0,-36" RenderTransformOrigin="0.253,-0.621" HorizontalAlignment="Left" Width="77">
-                <Grid Background="White" Margin="9,34,9,6">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF107896" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF093145" Margin="9,34,9,6">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="14*"/>
                         <ColumnDefinition Width="5*"/>
@@ -138,34 +176,34 @@
                     <TextBox x:Name="uname_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,47,0,0" Grid.Column="5"/>
                     <TextBox x:Name="fname_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,147,0,0" Grid.Column="5"/>
                     <TextBox x:Name="lname_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,175,0,0" Grid.Column="5"/>
-                    <Label x:Name="label2_re" Content="User Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,47,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
-                    <Label x:Name="label5_re" Content="First Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,145,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
-                    <Label x:Name="label6_re" Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,173,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
-                    <Button x:Name="but_srch_re" Content="Search" Margin="34,82,10,300" Click="search" Grid.ColumnSpan="3" Grid.Column="2"/>
-                    <Button x:Name="Clear" Content="Clear" Margin="33,82,389,300" Click="clear_Click" Grid.Column="5"/>
+                    <Label x:Name="label2_re" Content="User Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,47,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
+                    <Label x:Name="label5_re" Content="First Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,145,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
+                    <Label x:Name="label6_re" Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,173,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
+                    <Button x:Name="but_srch_re" Content="Search" Margin="34,82,10,300" Click="search" Grid.ColumnSpan="3" Grid.Column="2" Background="#FF107896" FontWeight="Bold" FontSize="16"/>
+                    <Button x:Name="Clear" Content="Clear" Margin="33,82,389,300" Click="clear_Click" Grid.Column="5" Background="#FF107896" FontWeight="Bold" FontSize="16"/>
 
-                    <Button x:Name="button1_re" Content="Recharge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="302,295,0,0" Click="recharge" Height="23" Grid.Column="5"/>
-                    <Label x:Name="L_email_re" Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,206,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
+                    <Button x:Name="button1_re" Content="Recharge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="389,162,0,0" Click="recharge" Height="36" Grid.Column="5" Background="#FF107896" FontWeight="Bold" FontSize="16"/>
+                    <Label x:Name="L_email_re" Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,206,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
                     <TextBox x:Name="tb_email_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,205,0,0" Grid.Column="5"/>
                     <TextBox x:Name="tb_cell_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,234,0,0" Grid.Column="5"/>
-                    <Label x:Name="Cell_re" Content="Cell Number" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,232,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
+                    <Label x:Name="Cell_re" Content="Cell Number" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,232,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
                     <TextBox x:Name="Recharge_Amt_re" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,295,0,0" Grid.Column="5" TextChanged="Recharge_Amt_re_TextChanged"/>
-                    <Label x:Name="L_Recharge_Amt_re" Content="Recharge Amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,296,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
-                    <Label x:Name="Balance" Content="Balance amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,263,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
+                    <Label x:Name="L_Recharge_Amt_re" Content="Recharge Amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,296,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
+                    <Label x:Name="Balance" Content="Balance amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,263,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
                     <TextBox x:Name="txt_Balance" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,264,0,0" Grid.Column="5"/>
-                    <Label x:Name="PLaying_hours_remaining" Content="Remaining Playing hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,324,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
+                    <Label x:Name="PLaying_hours_remaining" Content="Remaining Playing hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,324,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
                     <TextBox x:Name="txt_playing_hours_remaining" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,326,0,0" Grid.Column="5" TextChanged="remaining hours"/>
-                    <Button x:Name="btn_Add_playing_hours" Content="Add Hours" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="302,358,0,0" Click="Add_hours" Height="23" Grid.Column="5"/>
-                    <Label x:Name="PLaying_hours" Content="Add Playing hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,357,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2"/>
+                    <Button x:Name="btn_Add_playing_hours" Content="Add Hours" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Margin="403,266,0,0" Click="Add_hours" Height="29" Grid.Column="5" Background="#FF107896" FontWeight="Bold" FontSize="16"/>
+                    <Label x:Name="PLaying_hours" Content="Add Playing hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,357,0,0" Width="165" Grid.ColumnSpan="4" Grid.Column="2" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
                     <TextBox x:Name="txt_playing_hours_Add" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Margin="61,358,0,0" Grid.Column="5" TextChanged="Add_hours"/>
-                    <TextBox x:Name="txt_charge_per_hour" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Margin="391,324,0,0" Grid.Column="5"/>
-                    <Label x:Name="lbl_charge_per_hour" Content="Charge/hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="297,324,0,0" Width="86" Grid.Column="5"/>
+                    <TextBox x:Name="txt_charge_per_hour" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" Margin="417,222,0,0" Grid.Column="5"/>
+                    <Label x:Name="lbl_charge_per_hour" Content="Charge/hours" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="302,222,0,0" Width="110" Grid.Column="5" Foreground="#FF829356" FontWeight="Bold" FontSize="14.667"/>
 
                 </Grid>
             </TabItem>
 
         </TabControl>
-        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="647,10,0,0" Click="logout_Click"/>
+        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="588,10,0,0" Click="logout_Click" Background="#FF107896" FontSize="13.333" FontWeight="Bold" Grid.Column="1"/>
 
     </Grid>
 </Window>

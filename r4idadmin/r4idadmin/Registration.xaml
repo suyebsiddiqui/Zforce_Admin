@@ -6,20 +6,20 @@
         xmlns:local="clr-namespace:r4idadmin"
         mc:Ignorable="d"
         Title="Registration" Height="434.631" Width="548.393">
-    <Grid Margin="2,-3,2,3.333">
-        <Label x:Name="label" Content="               Registration Window" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139,10,0,0" Height="33" Width="249" FontSize="14.667" FontFamily="Segoe UI Semibold"/>
-        <Label x:Name="label1" Content="Name :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,52,0,0" Width="54"/>
-        <Label x:Name="label2" Content="Email :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,83,0,0" Width="54"/>
-        <Label x:Name="label3" Content="Username :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,114,0,0" Width="73"/>
-        <Label x:Name="label4" Content="Password :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,145,0,0" Width="73"/>
-        <Label x:Name="label5" Content="Confirm Password :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,176,0,0" Width="110"/>
-        <Label x:Name="label6" Content="Address Line 1 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,207,0,0" Width="110"/>
-        <Label x:Name="label7" Content="Address Line 2 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,238,0,0" Width="110"/>
-        <Label x:Name="label8" Content="City :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,238,0,0" Width="110"/>
-        <Label x:Name="label9" Content="State :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,207,0,0" Width="46"/>
-        <Label x:Name="label10" Content="Country :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,272,0,0"/>
-        <Label x:Name="label11" Content="Pincode :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,269,0,0"/>
-        <Button x:Name="register" Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Margin="191,345,0,0" Click="button_Click"/>
+    <Grid Margin="2,-3,2,3.333" Background="#FF093145">
+        <Label x:Name="label" Content="               Registration" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="139,10,0,0" Height="33" Width="249" FontSize="16" FontFamily="Segoe UI Semibold" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Name :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,52,0,0" Width="54" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="Email :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,83,0,0" Width="54" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label3" Content="Username :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,114,0,0" Width="73" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label4" Content="Password :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,145,0,0" Width="73" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label5" Content="Confirm Password :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,176,0,0" Width="110" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label6" Content="Address Line 1 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,207,0,0" Width="110" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label7" Content="Address Line 2 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,238,0,0" Width="110" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label8" Content="City :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,238,0,0" Width="110" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label9" Content="State :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,207,0,0" Width="46" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label10" Content="Country :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,272,0,0" Foreground="#FF829356" FontWeight="Bold"/>
+        <Label x:Name="label11" Content="Pincode :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="233,269,0,0" Foreground="#FF829356" FontWeight="Bold"/>
+        <Button x:Name="register" Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="113" Margin="191,345,0,0" Click="button_Click" Background="#FF107896" FontSize="16" FontWeight="Bold"/>
         <TextBox x:Name="middlename" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="MiddleName" VerticalAlignment="Top" Width="120" Margin="184,52,0,0" Foreground="Black"/>
         <TextBox x:Name="firstname" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="FirstName" VerticalAlignment="Top" Width="120" Margin="64,52,0,0" Foreground="Black"/>
         <TextBox x:Name="lastname" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="LastName" VerticalAlignment="Top" Width="120" Margin="304,52,0,0" TextChanged="textBox2_TextChanged" Foreground="Black"/>
@@ -34,7 +34,7 @@
         <TextBox x:Name="city" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" Margin="296,241,0,0"/>
         <TextBox x:Name="country" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Margin="73,272,0,0"/>
         <TextBox x:Name="pincode" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" Margin="296,272,0,0" TextChanged="textBox13_TextChanged"/>
-        <Label x:Name="label12" Content="Mobile :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,303,0,0"/>
+        <Label x:Name="label12" Content="Mobile :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,303,0,0" Foreground="#FF829356" FontWeight="Bold"/>
         <TextBox x:Name="primarymobile" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Primary" VerticalAlignment="Top" Width="155" Margin="73,307,0,0" TextChanged="textBox_TextChanged" Foreground="Black" MaxLength="10"/>
         <TextBox x:Name="secondarymobile" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Secondary" VerticalAlignment="Top" Width="140" Margin="230,307,0,0" Foreground="Black" MaxLength="10"/>
 

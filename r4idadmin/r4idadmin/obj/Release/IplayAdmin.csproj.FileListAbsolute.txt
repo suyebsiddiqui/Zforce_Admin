@@ -47,3 +47,16 @@ E:\cafe_manager_new_kewal\Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin.exe
 E:\cafe_manager_new_kewal\Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin.pdb
 E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Release\Add_Playing_Hours.g.cs
 E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Release\Add_Playing_Hours.baml
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\bin\Release\r4idadmin.exe.config
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin.exe
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin.pdb
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\IplayAdmin.csprojResolveAssemblyReference.cache
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\Login.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\pcrecords.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\Registration.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\remove_mac.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\Add_Playing_Hours.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\App.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin_MarkupCompile.cache
+C:\Users\FOD\Documents\GitHub\Zforce_Admin\r4idadmin\r4idadmin\obj\Release\r4idadmin_MarkupCompile.lref

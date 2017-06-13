@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:r4idadmin"
         mc:Ignorable="d"
-        Title="remove_mac" Height="243.49" Width="778.671">
+        Title="remove_mac" Height="243.49" Width="778.671" Background="#FF093145">
     <Grid Margin="0,0,-0.333,320.667">
         <TextBox x:Name="mac_remove" HorizontalAlignment="Left" Height="68" TextWrapping="Wrap" VerticalAlignment="Top" Width="659" Margin="54,90,0,-158" FontSize="16"/>
-        <Label x:Name="label" Content="Enter MAC Address of the PC that you want to remove!" HorizontalAlignment="Left" Height="58" Margin="54,27,0,-85" VerticalAlignment="Top" Width="659" FontSize="18.667" Foreground="#FFCD2942" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
+        <Label x:Name="label" Content="Enter MAC Address of the PC that you want to remove!" HorizontalAlignment="Left" Height="58" Margin="54,27,0,-85" VerticalAlignment="Top" Width="659" FontSize="18.667" Foreground="#FF829356" FontFamily="Yu Gothic UI" FontWeight="Bold"/>
 
     </Grid>
 </Window>
