@@ -1,0 +1,9 @@
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\bin\Debug\R4IDPLAY application.exe.config
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY application.csprojResolveAssemblyReference.cache
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY_application.form_login.resources
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY_application.Properties.Resources.resources
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY application.csproj.GenerateResource.Cache
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\bin\Debug\R4IDPLAY application.exe
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\bin\Debug\R4IDPLAY application.pdb
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY application.exe
+c:\users\arijit\documents\visual studio 2015\Projects\R4IDPLAY application\R4IDPLAY application\obj\Debug\R4IDPLAY application.pdb

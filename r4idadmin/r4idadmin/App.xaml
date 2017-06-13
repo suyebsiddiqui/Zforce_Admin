@@ -1,0 +1,9 @@
+﻿<Application x:Class="r4idadmin.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:r4idadmin"
+             StartupUri="Login.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

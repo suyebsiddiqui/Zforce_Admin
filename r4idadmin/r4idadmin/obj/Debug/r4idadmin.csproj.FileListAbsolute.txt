@@ -1,0 +1,146 @@
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+c:\users\arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\Login.baml
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\bin\Debug\WPFToolkit.dll
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+C:\Users\Arijit\documents\visual studio 2015\Projects\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\MySql.Data.dll
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Login.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\bin\Debug\MySql.Data.dll
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\Login.baml
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+S:\cafe_manager 1\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csprojResolveAssemblyReference.cache
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csprojResolveAssemblyReference.cache
+C:\Users\suyeb\Desktop\Cafe_Manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+C:\Users\suyeb\Desktop\Cafe_Manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+C:\Users\suyeb\Desktop\Cafe_Manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\bin\Debug\MySql.Data.dll
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csprojResolveAssemblyReference.cache
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Login.baml
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
+C:\Users\R4idf\Desktop\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+S:\cafe_manager\Admin\r4idadmin\r4idadmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\MySql.Data.dll
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csprojResolveAssemblyReference.cache
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Login.baml
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+S:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe.config
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.exe
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.pdb
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.exe
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\r4idadmin.pdb
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\bin\Debug\MySql.Data.dll
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csprojResolveAssemblyReference.cache
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Login.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\App.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.cache
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin_MarkupCompile.lref
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Login.baml
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\dashboard.baml
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\pcrecords.baml
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\Registration.baml
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\remove_mac.baml
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.g.resources
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.Properties.Resources.resources
+E:\cafe_manager_new\Admin\r4idadmin\r4idadmin\obj\Debug\r4idadmin.csproj.GenerateResource.Cache
